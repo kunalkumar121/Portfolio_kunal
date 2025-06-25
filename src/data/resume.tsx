@@ -9,9 +9,10 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/meerut",
   description:
     "Full-Stack Developer who loves turning ideas into real products. Always learning, building, and sharing along the way.",
-  summary:
-    "I began my journey as a full-stack software engineer, developing real-world applications and scalable systems. Over time, I’ve worked on diverse projects — from WonderLust, a travel-focused MERN app, to building the backend for an airline booking system. I’ve completed internships in cybersecurity, fintech, and currently in ServiceNow platform development, while also earning certifications from Microsoft, AWS, and LinkedIn. I’m passionate about solving problems through code, building impactful tech, and helping others grow in the developer community.I’m always exploring new tools and ideas — whether it’s cloud, AI, or backend architecture — and I actively share what I learn.",
+    summary:
+    "I'm passionate about solving problems through code, building impactful tech, and helping others grow in the developer community. I’m always exploring new tools and ideas — whether it’s cloud, AI, or backend architecture — and I actively share what I learn.",
   avatarUrl: "/kunal.jpg",
+  resumeDriveUrl: "https://drive.google.com/file/d/1VgE1Gr-AYOMDoFj4ARMylSBa9ninByxx/view?usp=sharing",
   skills: [
     "JavaScript",
     "Express.js",

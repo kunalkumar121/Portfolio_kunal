@@ -29,6 +29,18 @@ export default function Page() {
                 delay={BLUR_FADE_DELAY}
                 text={DATA.description}
               />
+              {/* Resume Button */}
+              <div className="mt-4">
+                <a
+                  href={DATA.resumeDriveUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition font-medium"
+                >
+                  {/* You can add an icon here if you have one, e.g. <Icons.googleDrive className="w-5 h-5 mr-2" /> */}
+                  View Resume
+                </a>
+              </div>
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
               <Avatar className="size-28 border">
@@ -164,7 +176,7 @@ export default function Page() {
                   I like building things
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Attended the B-Plan Competition at E-Summit'25, DTU, Delhi.
+                  Attended the B-Plan Competition at E-Summit&apos;25, DTU, Delhi.
                   Pitched a startup idea through elimination quiz, pitch deck, and live presentation rounds.
                   A valuable experience that sharpened my skills in innovation and business strategy.
                 </p>
